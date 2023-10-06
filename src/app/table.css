@@ -1,0 +1,37 @@
+#myTable{
+  border: 1px solid #000;
+}
+
+.tablestyle td, .tablestyle th {
+    border: 1px solid #000; /* Add a 1px solid black border to cells */
+    padding: 8px; /* Adjust padding as needed */
+}
+
+th{
+  background-color: rgb(170, 166, 160);
+}
+
+.buttons {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #d8b7b7;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #505861;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
